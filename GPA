@@ -1,0 +1,169 @@
+print("Welcome to the Arena for checking your GPA!\n")
+print('GOOD FOR YOU\n')
+print("Enter the grades for your subjects below\n")
+print("A=1,B+=2,B=3,C+=4,C=5,D+=6,D=7,E=8,F=9\n")
+M1=int(input("Maths 126:"))
+M2=int(input("Math 122:"))
+M3=int(input("UGRC 110:"))
+M4=int(input("DCIT 102:"))
+M5=int(input("DCIT104 :"))
+M6=int(input("STAT112:"))
+A1=4.0
+B2=3.5
+B3=3.0
+C4=2.5
+C5=2.0
+C6=1.5
+D=1.0
+E=0.5
+F=0.0
+if M1==1:
+    sum1=A1*3
+elif M1==2:
+    sum1=B2*3
+elif M1==3:
+    sum1=B3*3
+elif M1==4:
+    sum1=C4*3
+elif M1==5:
+    sum1=C6*3
+elif M1==6:
+    sum1=D*3
+elif M1==7:
+    sum1=D*3
+elif M1==8:
+    sum1=E*3
+else:
+    sum1=0
+
+if M2==1:
+    sum2=A1*3
+elif M2==2:
+    sum2=B2*3
+elif M2==3:
+    sum2=B3*3
+elif M2==4:
+    sum2=C4*3
+elif M2==5:
+    sum2=C5*3
+elif M2==6:
+    sum2=C6*3
+elif M2==7:
+    sum2=D*3
+elif M2==8:
+    sum2=E*3
+else:
+    sum2=0
+
+if M3==1:
+    sum3=A1*3
+elif M3==2:
+    sum3=B2*3
+elif M3==3:
+    sum3=B3*3
+elif M3==4:
+    sum3=C4*3
+elif M3==5:
+    sum3=C5*3
+elif M3==6:
+    sum3=C6*3
+elif M3==7:
+    sum3=D*3
+elif M3==8:
+    sum3=E*3
+else:
+    sum3=0
+
+if M3==1:
+    sum3=A1*3
+elif M3==2:
+    sum3=B2*3
+elif M3==3:
+    sum3=B3*3
+elif M3==4:
+    sum3=C4*3
+elif M3==5:
+    sum3=C5*3
+elif M3==6:
+    sum3=C6*3
+elif M3==7:
+    sum3=D*3
+elif M3==8:
+    sum3=E*3
+else:
+    sum3=0
+
+if M4==1:
+    sum4=A1*3
+elif M4==2:
+    sum4=B2*3
+elif M4==3:
+    sum4=B3*3
+elif M4==4:
+    sum4=C4*3
+elif M4==5:
+    sum4=C5*3
+elif M4==6:
+    sum4=C6*3
+elif M4==7:
+    sum4=D*3
+elif M4==8:
+    sum4=E*3
+else:
+    sum4=0
+
+if M5==1:
+    sum5=A1*3
+elif M5==2:
+    sum5=B2*3
+elif M5==3:
+    sum5=B3*3
+elif M5==4:
+    sum5=C4*3
+elif M5==5:
+    sum5=C5*3
+elif M5==6:
+    sum5=C6*3
+elif M5==7:
+    sum5=D*3
+elif M5==8:
+    sum5=E*3
+else:
+    sum5=0
+
+if M6==1:
+    sum6=A1*3
+elif M6==2:
+    sum6=B2*3
+elif M6==3:
+    sum6=B3*3
+elif M6==4:
+    sum6=C4*3
+elif M6==5:
+    sum6=C5*3
+elif M6==6:
+    sum6=C6*3
+elif M6==7:
+    sum6=D*3
+elif M6==7:
+    sum6=E*3
+else:
+    sum6=0
+Sum7=sum1+sum2+sum3+sum4+sum5+sum6
+GPA=round(Sum7/18,2)
+print(f"Your GPA is {GPA}")
+
+if 3.6<= GPA<=4.0:
+    print("Congratulation! you have gotten a First Class.Looking up to see you in MIT for your masters.")
+elif 3.0<= GPA <=3.59:
+    print("Congratulation! you have gotten a Second Class upper.Good luck in the job market.")
+elif 2.0<= GPA <=2.99:
+    print("Congratulation! you have gotten a Second Class lower. Good luck in the job market. ")
+elif 1.0<= GPA <=1.99:
+    print("Congratulation! you have gotten a third class.")
+else:
+    print("Attempted degree.") 
+print("Life is about how you make it, do not rate yourself down by your class or over rate yourself base on your class but rather show your worth wherever you find yourself.THANK YOU!")
+
+
+
